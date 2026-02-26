@@ -1,0 +1,2 @@
+# force to change Markdown files to LF
+*.md text eol=lf
