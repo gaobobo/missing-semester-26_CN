@@ -392,7 +392,7 @@ echo "Full log: $LOGFILE"
 4. `'single quotes'`、`"double quotes"`和`$'ANSI quotes'`之间有什么区别？
    写一个命令，输出一个包含`$`、`!`和换行符的字符串。参见“[引号](https://www.gnu.org/software/bash/manual/html_node/Quoting.html)”一节。
 5. Shell有三个标准流：stdin(0)、stdout(1)、stderr(2)。
-   运行`ls /nonexistent /tmp`并将stdout重定向到一个文件。
+   运行`ls /nonexistent /tmp`并将stdout重定向到一个文件，而stderr重定向到另一个文件。
    如何将两者重定向到同一个文件？
    参见“[重定向](https://www.gnu.org/software/bash/manual/html_node/Redirections.html)”一节。
 6. `$?`用于捕获最后一个命令的退出状态（0=成功）。
