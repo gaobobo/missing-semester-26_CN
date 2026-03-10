@@ -82,6 +82,13 @@ Shell在解析时会以空格作为分隔符，并将第一个单词视为要运
 >
 > 除了`man`之外，可以考虑下[`tldr`](https://tldr.sh/)，因为其可以在终端显示最常用的用法示例。大语言模型通常也能很好地解释命令如何工作，以及怎样调用它们来达成你想要的效果。
 
+> [!TIP]
+>
+> 译者注：
+>
+> - 社区还有“[中文 man 手册页计划](https://github.com/man-pages-zh/manpages-zh)”，其中对几乎所有文档进行了翻译。
+> - Debian还维护了一份在线阅览版：[Manpages of manpages-zh in Debian unstable](https://manpages.debian.org/unstable/manpages-zh/index.html)。
+
 在了解什么是`man`之后，另一个需要学习的重要命令是`cd`，即“change directory”（改变目录）。
 该命令实际上是Shell内置的，并非一个独立的程序（例如，`which cd`会显示“no cd found”）。
 你只需要传递一个路径，然后当前工作目录就是这个路径了。
